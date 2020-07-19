@@ -1,0 +1,21 @@
+{% extends 'blogapp/base.html' %}
+{% block content %}
+{% for d in data %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2">{{ d.author }}</a> &nbsp;&nbsp;
+            <small class="text-muted">Created at : &nbsp;{{ d.created_at }}</small>
+
+        </div>
+        <h4><a class="article-title">{{ d.title }}</a></h4>
+        <div class="article-metadata">
+
+            <p class="article-content">{{ d.post }}</p>
+        </div>
+
+        <small class="text-muted">Updated at : &nbsp;{{ d.updated_at }}</small>
+    </div>
+</article>
+{% endfor %}
+{% endblock %}

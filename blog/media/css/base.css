@@ -1,0 +1,38 @@
+.container{
+color:blue;
+background-color:yellow;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+  color:red;
+  margin:2% 2% 2% 2%;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+article{
+padding-left:5%;
+padding-bottom:0%;
+padding-top:2%;
+background-color:silver;
+}
+
